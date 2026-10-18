@@ -1,0 +1,8 @@
+{
+  "versionCode": 10,
+  "versionName": "1.9",
+  "apkAsset": "ShadowX-Premium-v1.9.apk",
+  "sha256": "3c9a5a37bc0c16477d60b48684054d5d2dfe59b0117110fb15fc27899e8aa632",
+  "minSdk": 26,
+  "notes": "Encrypted auto-login with server verification, driver status, clearer root errors, and GitHub online updates."
+}

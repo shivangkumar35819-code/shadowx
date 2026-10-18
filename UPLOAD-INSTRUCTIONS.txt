@@ -1,0 +1,17 @@
+GitHub APK updates only ? no source upload needed.
+
+1. Open https://github.com/shivangkumar35819-code/shadowx/releases/new
+2. Create a stable release tagged v1.9.
+3. Extract this ZIP and upload these TWO files individually as Release assets:
+   ShadowX-Premium-v1.9.apk
+   update.json
+4. Publish the release. Do not mark it as a prerelease.
+
+Do not upload just this ZIP: the app needs APK and update.json as individual assets.
+For each future update, increase versionCode, build with the same signing key,
+and generate a fresh update.json for the exact APK. Publish both in a new release.
+The app offers updates only when the release versionCode exceeds its installed
+versionCode. Version 1.9 cannot offer itself as a newer update. Older builds
+without the updater need version 1.9 installed manually once.
+Automatic checks run at most once per six hours. Settings > Check for updates
+checks immediately. Android installation still requires user confirmation.
