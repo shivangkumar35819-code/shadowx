@@ -1,8 +1,8 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
-  "apkAsset": "ShadowX-Premium-v1.9.apk",
-  "sha256": "3c9a5a37bc0c16477d60b48684054d5d2dfe59b0117110fb15fc27899e8aa632",
+  "versionCode": 11,
+  "versionName": "1.10",
+  "apkAsset": "ShadowX-Premium-v1.10.apk",
+  "sha256": "2bacabaf59caa678acc7369245b2fb3c7ad3e3b16b0cc2f664e8c36d570b1be1",
   "minSdk": 26,
-  "notes": "Encrypted auto-login with server verification, driver status, clearer root errors, and GitHub online updates."
+  "notes": "Home status card now shows app update availability. Tap Update to check or download the latest release."
 }
