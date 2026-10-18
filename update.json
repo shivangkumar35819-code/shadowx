@@ -1,8 +1,8 @@
 {
-  "versionCode": 11,
-  "versionName": "1.10",
-  "apkAsset": "ShadowX-Premium-v1.10.apk",
-  "sha256": "2bacabaf59caa678acc7369245b2fb3c7ad3e3b16b0cc2f664e8c36d570b1be1",
+  "versionCode": 12,
+  "versionName": "1.11",
+  "apkAsset": "shadowx-v1.11.apk",
+  "sha256": "6dd96db6c3a54c4cf6477b8c6787a4b81f7d9f15c1cc3ee36acf5be68f1ebd32",
   "minSdk": 26,
-  "notes": "Home status card now shows app update availability. Tap Update to check or download the latest release."
+  "notes": "App renamed to shadowx with the new blue Shadow X launcher logo."
 }

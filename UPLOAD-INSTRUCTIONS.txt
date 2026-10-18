@@ -1,4 +1,2 @@
-Extract this ZIP. Publish a stable GitHub Release tagged v1.10 at https://github.com/shivangkumar35819-code/shadowx/releases/new
-Upload ShadowX-Premium-v1.10.apk and update.json as TWO INDIVIDUAL release assets. No source code is included or required. Do not upload only the ZIP.
-Installed version 1.9 can detect this newer version; version 1.10 shows Updated after a successful check against this release.
-Future releases need a greater versionCode, the same signing key and fresh update.json.
+Extract this ZIP and upload shadowx-v1.11.apk and update.json individually as assets of a stable GitHub Release tagged v1.11. Repository: https://github.com/shivangkumar35819-code/shadowx/releases/new
+No source code is included. Do not upload only the ZIP.
