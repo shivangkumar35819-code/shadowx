@@ -1,0 +1,23 @@
+SHADOW X v1.18 - Online settings (no source)
+
+1. Install SHADOW-X-v1.18.apk ONCE to enable online configuration.
+2. Upload remote-config.json to the ROOT of the PUBLIC GitHub repository
+   shivangkumar35819-code/shadowx on its default branch.
+   This JSON is a repository file, NOT a Release asset.
+3. Edit text/settings in that file and increase revision (1 -> 2 -> 3).
+4. On the next new verified login, the app fetches and applies valid changes.
+   Offline/invalid/older configs retain the last working private cache.
+
+Allowed edits: notice, driverTitle, startGameText, loadRtText, loadQxText,
+showNotice, showStorage. Keep schemaVersion at 1.
+This changes data only; drivers, native code, licensing and new features
+still require an APK update. No scripts or commands can be sent in config.
+Automatic login now checks config, not an automatic APK download.
+Manual APK update checking is still available in Settings.
+
+For the initial APK GitHub Release, upload SHADOW-X-v1.18.apk and update.json
+as separate assets under stable tag v1.18.
+Do not upload only this ZIP as the Release asset.
+No source code, private signing keys or credentials are included.
+Build/signature/alignment and config validation tests passed.
+GitHub publishing and end-to-end phone/config checks were not performed.

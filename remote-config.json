@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "notice": "",
+  "driverTitle": "Driver Loader",
+  "startGameText": "Start Game",
+  "loadRtText": "Load RT",
+  "loadQxText": "Load QX",
+  "showNotice": true,
+  "showStorage": true
+}
