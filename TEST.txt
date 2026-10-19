@@ -1,0 +1,18 @@
+Online configuration test v1.18.1 (revision 2)
+
+1. In GitHub shivangkumar35819-code/shadowx, select main.
+2. Replace remote-config.json at the repository root with the supplied file.
+3. Commit directly to main (the public/default branch). Do not create an APK Release.
+4. On the phone, close ShadowX completely and reopen it. Let saved-key login
+   verify with the server. Do not use Exit for this test: Exit clears your key.
+5. Home should show: Online update v1.18.1 applied successfully.
+   A toast may say Online settings updated. The APK header stays v1.18;
+   v1.18.1 here is the online config test label, not a new installed APK version.
+6. Close and reopen offline: the notice should remain from the private cache.
+
+Requires the v1.18 online-config APK already installed. No APK installation
+is needed for this test. If revision 2 is already cached, use a higher revision.
+To hide the notice later, set notice to an empty string and revision to 3.
+The agent validated the published baseline revision 1 and the new JSON parser,
+but has not committed the new file or performed a phone integration test.
+No APK, source code or signing keys are included.

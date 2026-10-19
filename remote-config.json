@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
-  "notice": "",
+  "revision": 2,
+  "notice": "Online update v1.18.1 applied successfully.",
   "driverTitle": "Driver Loader",
   "startGameText": "Start Game",
   "loadRtText": "Load RT",
