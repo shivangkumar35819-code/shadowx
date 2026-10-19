@@ -1,8 +1,8 @@
 {
-  "versionCode": 23,
-  "versionName": "1.18",
-  "apkAsset": "SHADOW-X-v1.18.apk",
-  "sha256": "6d62b791ecea200b83304579c1233eda9a22768b89eccf01ad962fed8c6d7fd4",
+  "versionCode": 24,
+  "versionName": "1.18.2",
+  "apkAsset": "SHADOW-X-v1.18.2.apk",
+  "sha256": "9ae5553e5e3bc0cc7592c175af53ca24d491aad3736f57cac5867332e851512b",
   "minSdk": 26,
-  "notes": "Data-only online settings/text configuration from GitHub at verified login, private offline cache, strict schema validation, and driver-status fixes."
+  "notes": "Online configuration popup appears once per revision and dismisses after five seconds. Includes live driver-status fixes."
 }

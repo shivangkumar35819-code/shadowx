@@ -1,23 +1,19 @@
-SHADOW X v1.18 - Online settings (no source)
+SHADOW X v1.18.2 / versionCode 24
+Online config revision: 3
 
-1. Install SHADOW-X-v1.18.apk ONCE to enable online configuration.
-2. Upload remote-config.json to the ROOT of the PUBLIC GitHub repository
-   shivangkumar35819-code/shadowx on its default branch.
-   This JSON is a repository file, NOT a Release asset.
-3. Edit text/settings in that file and increase revision (1 -> 2 -> 3).
-4. On the next new verified login, the app fetches and applies valid changes.
-   Offline/invalid/older configs retain the last working private cache.
+1. Install SHADOW-X-v1.18.2.apk once.
+2. Replace remote-config.json at the ROOT of the public repository
+   shivangkumar35819-code/shadowx, on its main/default branch. Commit it.
+3. Fully close and reopen the app; wait for verified login.
+4. The online-update popup appears ONCE per revision and dismisses in 5 seconds.
+   The acknowledgement survives reopening; there is no permanent Home notice.
+5. For later online text/settings edits, increase revision each time.
+   No new APK is required for supported config fields.
 
-Allowed edits: notice, driverTitle, startGameText, loadRtText, loadQxText,
-showNotice, showStorage. Keep schemaVersion at 1.
-This changes data only; drivers, native code, licensing and new features
-still require an APK update. No scripts or commands can be sent in config.
-Automatic login now checks config, not an automatic APK download.
-Manual APK update checking is still available in Settings.
+GitHub Release (optional initial APK distribution): tag v1.18.2.
+Upload APK and update.json as separate Release assets.
+remote-config.json belongs in the repository root, NOT as a Release asset.
 
-For the initial APK GitHub Release, upload SHADOW-X-v1.18.apk and update.json
-as separate assets under stable tag v1.18.
-Do not upload only this ZIP as the Release asset.
-No source code, private signing keys or credentials are included.
-Build/signature/alignment and config validation tests passed.
-GitHub publishing and end-to-end phone/config checks were not performed.
+No source code, private keys or credentials included.
+APK build, signature, ZIP alignment and config parser tests passed.
+GitHub publishing and phone popup testing have not been performed.
