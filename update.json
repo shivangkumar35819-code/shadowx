@@ -1,8 +1,0 @@
-{
-  "versionCode": 24,
-  "versionName": "1.18.2",
-  "apkAsset": "SHADOW-X-v1.18.2.apk",
-  "sha256": "9ae5553e5e3bc0cc7592c175af53ca24d491aad3736f57cac5867332e851512b",
-  "minSdk": 26,
-  "notes": "Online configuration popup appears once per revision and dismisses after five seconds. Includes live driver-status fixes."
-}
