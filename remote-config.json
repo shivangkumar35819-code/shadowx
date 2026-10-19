@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
-  "notice": "Online update v1.19 applied successfully.",
-  "driverTitle": "Driver Loader",
-  "startGameText": "Start Game",
+  "revision": 5,
+  "notice": "Online settings updated. Check the new Online labels.",
+  "driverTitle": "Driver Loader - Online",
+  "startGameText": "Start Game - Online",
   "loadRtText": "Load RT",
   "loadQxText": "Load QX",
   "showNotice": true,

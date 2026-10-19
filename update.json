@@ -1,8 +1,8 @@
 {
-  "versionCode": 25,
-  "versionName": "1.19",
-  "apkAsset": "SHADOW-X-v1.19.apk",
-  "sha256": "c474ad41750219ec1dfa37a53b1eec301d108958ce20122533941d4a076e81b7",
+  "versionCode": 26,
+  "versionName": "1.19.1",
+  "apkAsset": "SHADOW-X-v1.19.1.apk",
+  "sha256": "01b0197f99d895017ac82ab086712c9e0dd38173c48c04ceebf745287d805138",
   "minSdk": 26,
-  "notes": "Added editable Quick Settings tile name with Save/Reset. Includes one-time five-second online configuration popup and driver-status fixes."
+  "notes": "Online settings now show revision/check status, detailed errors, manual retry, and GitHub raw-file fallback."
 }
