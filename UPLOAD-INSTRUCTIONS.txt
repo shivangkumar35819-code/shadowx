@@ -1,2 +1,0 @@
-Extract this ZIP and upload shadowx-v1.11.apk and update.json individually as assets of a stable GitHub Release tagged v1.11. Repository: https://github.com/shivangkumar35819-code/shadowx/releases/new
-No source code is included. Do not upload only the ZIP.
