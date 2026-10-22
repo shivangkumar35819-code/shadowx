@@ -1,8 +1,8 @@
 {
-  "versionCode": 26,
-  "versionName": "1.19.1",
-  "apkAsset": "SHADOW-X-v1.19.1.apk",
-  "sha256": "01b0197f99d895017ac82ab086712c9e0dd38173c48c04ceebf745287d805138",
+  "versionCode": 29,
+  "versionName": "2.0",
+  "apkAsset": "SHADOW-X-v2.0.apk",
+  "sha256": "8135295f8c789a90bcc3d89ec888457815fce121729e8f02d7605a3ee8afde69",
   "minSdk": 26,
-  "notes": "Online settings now show revision/check status, detailed errors, manual retry, and GitHub raw-file fallback."
+  "notes": "Individual verified driver downloads with private caching; separate Edit buttons for ShadowX and Night/DND tiles; Online Settings removed; reinstall-safe HWID persistence."
 }

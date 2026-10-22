@@ -1,17 +1,1 @@
-SHADOW X v1.19 / versionCode 25
-Online config revision 4
-
-Install the APK once for the new Edit tile name option in Settings.
-Upload APK and update.json as separate GitHub Release assets under v1.19.
-Replace remote-config.json in the ROOT of main/default branch of public repo
-shivangkumar35819-code/shadowx. This file is NOT a Release asset.
-If your published revision is already 4 or higher, increase this JSON revision
-before committing (the published revision could not be verified during packaging).
-
-After a new verified login, a new revision applies with a popup once,
-which dismisses after five seconds. Future supported text/settings edits
-only require a higher JSON revision; new app features still require an APK.
-
-No source code or private signing keys included.
-Build, signature, alignment and package checksum verified.
-No GitHub upload or phone UI test was performed.
+ShadowX v2.0: install SHADOW-X-v2.0.apk over the existing app, open and log in once. Allow root when requested. Select the supported RT/QX driver in Driver Load; only the selected driver downloads. Use Start Game to launch. Read README.md for requirements and verification limits.
